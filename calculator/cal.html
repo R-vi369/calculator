@@ -1,0 +1,60 @@
+  <!--Mssge For Adding more func.-->
+  <!-- created by Ravi -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Calculator</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="cal.css">
+  </head>
+  <body>
+  <div id="head_mid">Calculator</div>
+      <div class="calculator">
+          <form action="" id="form">
+              <input id="input" type="text" class="form-control main-bar" name="display" value="" placeholder="0" readonly="">
+              
+              
+              <div class="button-area">
+                  <div class="line">
+                  <button type="button" name="btn" value="0" class="btn btn-outline-light" onclick="calculate(this.value)">0</button>
+                  <button type="button" name="btn" value="1" class="btn btn-outline-light" onclick="calculate(this.value)">1</button>
+                  <button type="button" name="btn" value="2" class="btn btn-outline-light" onclick="calculate(this.value)">2</button>
+                  <button type="button" name="btn" value="+" class="btn btn-outline-success" onclick="calculate(this.value)">+</button>
+              </div>
+  
+  
+  
+                  <div class="line mt-4">
+                  <button type="button" name="btn" value="3" class="btn btn-outline-light" onclick="calculate(this.value)">3</button>
+                  <button type="button" name="btn" value="4" class="btn btn-outline-light" onclick="calculate(this.value)">4</button>
+                  <button type="button" name="btn" value="5" class="btn btn-outline-light" onclick="calculate(this.value)">5</button>
+                  <button type="button" name="btn" value="-" class="btn btn-outline-success" onclick="calculate(this.value)">-</button>
+              </div>
+  
+  
+  
+                  <div class="line mt-4">
+                  <button type="button" name="btn" value="6" class="btn btn-outline-light" onclick="calculate(this.value)">6</button>
+                  <button type="button" name="btn" value="7" class="btn btn-outline-light" onclick="calculate(this.value)">7</button>
+                  <button type="button" name="btn" value="8" class="btn btn-outline-light" onclick="calculate(this.value)">8</button>
+                  <button type="button" name="btn" value="*" class="btn btn-outline-success" onclick="calculate(this.value)">*</button>
+                  </div>
+  
+                  <div class="line mt-4">
+                  <button type="button" name="btn" value="9" class="btn btn-outline-light"onclick="calculate(this.value)">9</button>
+                  <button id="answer" type="button" name="btn" value="=" class="btn btn-outline-success" onclick="evol();">=</button>
+                  <button type="button" name="btn" value="" class="btn btn-outline-success" onclick="display.value=null">C</button>
+                  <button type="button" name="btn" value="/" class="btn btn-outline-success" onclick="calculate(this.value)">/</button>
+                  <button type="button" name="btn" value="." class="btn btn-outline-success mt-2" onclick="calculate(this.value)">.</button>
+  
+              </div>
+              </div>
+              </form>
+              </div>
+              <script src="cal.js"></script>
+              <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+  </html>
