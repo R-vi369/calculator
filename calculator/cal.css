@@ -17,14 +17,14 @@ body{
     color:black;
     padding: 5px 0px;
     text-align:center ;
-   margin-top: 10% ;
+   margin-top: 5% ;
     text-shadow:3px 2px grey;
     /* border: 1px solid white; */
     
 }
 .calculator{
     height: 60vh;
-    width:60%;
+    width:310px;
     background-color: #000000;
 
     margin:auto;
@@ -34,6 +34,15 @@ body{
     border-radius: 20px;
     box-shadow:0 0 30px 5px;
 }
+@media screen and (min-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+    .calculator{
+        height: 23%;
+        margin-top: 30%;
+    }
+  }
 
 .calculator:hover{
 transition-duration:0.5s;
