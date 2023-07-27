@@ -1,27 +1,34 @@
 /* created by Ravi  */
-
-body{
-
-
-    background-color:#008080;
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 }
+body{
+    height: 80vh;
+    width: 100%;
+    background-color:#63573d;
+}
+
+
 #head_mid{
     font-size:40px;
+    font-weight: 700;
     color:black;
     padding: 5px 0px;
     text-align:center ;
-    margin: 0px 0px 0px 0px;
-    text-shadow:3px 3px grey;
+   margin-top: 10% ;
+    text-shadow:3px 2px grey;
     /* border: 1px solid white; */
     
 }
 .calculator{
-    height: 370px;
-    width: 300px;
-    background-color: #232B2B;
+    height: 60vh;
+    width:60%;
+    background-color: #000000;
+
     margin:auto;
-    margin-top:13%;
-    /* transform: translate(-50% -50%); */
+   margin-top: 4%;
     padding: 10px;
     
     border-radius: 20px;
